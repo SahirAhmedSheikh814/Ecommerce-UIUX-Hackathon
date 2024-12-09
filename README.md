@@ -1,36 +1,24 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Ecommerce UI/UX Hackathon
 
-## Getting Started
+This project was developed as part of the Quarter 2 UI/UX Hackathon, where the objective was to showcase our skills in UI/UX design and development. The project was completed within 24 hours, highlighting my abilities in modern web technologies and design principles.
 
-First, run the development server:
+## Purpose
+The primary goal of this hackathon was to test UI/UX skills, focusing on creating a user-friendly and visually appealing e-commerce platform.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Technologies Used
+- **Next.js**: React-based framework for server-side rendering and static site generation.
+- **Shadcn**: UI components library for building interactive user interfaces.
+- **Tailwind CSS**: Utility-first CSS framework for rapid UI development.
+- **React-Icons**: Collection of customizable icons for React.
+- **Custom CSS**: For additional styling and unique design elements.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features
+- **Responsive Layout**: Fully responsive design ensuring compatibility across devices.
+- **UI Components**: Interactive and accessible UI components powered by Shadcn and React-Icons.
+- **Custom Styling**: Tailwind CSS combined with custom CSS for a unique look and feel.
+- **E-commerce Interface**: A clean and user-friendly design tailored for online shopping experiences.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## How to Run Locally
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/SahirAhmedSheikh814/Ecommerce-UIUX-Hackathon.git
