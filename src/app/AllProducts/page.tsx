@@ -64,6 +64,7 @@ const AllProducts = () => {
       price: '$30',
       isOnSale: true,
       salePrice: '$20',
+      link: "Components/SingleProductDetails.tsx"
     },
     {
       image: '/product-3.svg',
@@ -165,10 +166,13 @@ const AllProducts = () => {
             Sale
           </span>
         )}
-        <img
+        <Image
           src={image}
           alt={title}
           className="w-full h-3/5 object-cover rounded-md"
+          width={300}
+          height={300}
+          priority
         />
         <div className="mt-4">
           <h3 className="text-lg font-semibold text-black group-hover:text-[#007580] transition">
@@ -262,4 +266,6 @@ const AllProducts = () => {
 };
 
 export default AllProducts;
+
+
 

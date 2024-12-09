@@ -1,7 +1,7 @@
 'use client';
 
 import React from 'react';
-import { BiCart } from 'react-icons/bi'; // Import the cart icon from react-icons
+import { BiCart } from 'react-icons/bi'; 
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';

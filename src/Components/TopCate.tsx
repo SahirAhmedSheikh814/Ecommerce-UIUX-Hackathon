@@ -2,12 +2,12 @@ import React from 'react';
 import Image from 'next/image';
 
 const TopCate: React.FC = () => {
-  // Sample data for the categories
+  
   const categories = [
     {
       name: 'Wing Chair',
       quantity: '3,584',
-      image: '/product-5.svg', // Replace with your image path
+      image: '/product-5.svg', 
     },
     {
       name: 'Wooden Chair',

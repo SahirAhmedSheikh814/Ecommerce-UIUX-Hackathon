@@ -11,7 +11,7 @@ const NavBar = () => {
        <Link href="/"> <li className="nav__link cursor-pointer">Home</li></Link>
         <li className="nav__link cursor-pointer">Shop</li>
        <Link href="/AllProducts"> <li className="nav__link cursor-pointer">Product</li></Link>
-        <li className="nav__link cursor-pointer">Pages</li>
+       <Link href="/SProduct"> <li className="nav__link cursor-pointer">Pages</li></Link>
        <Link href="/About"> <li className="nav__link cursor-pointer">About</li></Link>
        <Link href="/Contact"> <li className="nav__link cursor-pointer">Contact</li></Link>
       </ul>
@@ -26,7 +26,7 @@ const NavBar = () => {
           <Link href="/"> <li className="nav__link cursor-pointer">Home</li></Link>
             <li className="nav__link cursor-pointer">Shop</li>
             <Link href="/AllProducts"> <li className="nav__link cursor-pointer">Product</li></Link>
-            <li className="nav__link cursor-pointer">Pages</li>
+          <Link href="/SProduct">  <li className="nav__link cursor-pointer">Pages</li></Link>
            <Link href="/About"> <li className="nav__link cursor-pointer">About</li></Link>
            <Link href="/Contact"> <li className="nav__link cursor-pointer">Contact</li></Link>
           </ul>

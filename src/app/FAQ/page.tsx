@@ -1,12 +1,12 @@
 'use client'
 
-// import {Accordion,AccordionContent,AccordionItem, AccordionTrigger,} from "@/components/ui/accordion"
+
 import { Accordion } from "@/Components/ui/accordion";
 import { AccordionContent } from "@/Components/ui/accordion";
 import { AccordionItem } from "@/Components/ui/accordion";
 import { AccordionTrigger } from "@/Components/ui/accordion";
 
-export default function FAQPage() {
+export default function FAQ() {
   const faqs = [
     {
       question: "What types of chairs do you offer?",

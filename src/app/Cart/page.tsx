@@ -7,7 +7,7 @@ import Image from 'next/image'
 
 interface CartItem {
   id: number
-  image: string  // This will be the path to your image
+  image: string  
   name: string
   price: number
   size: string
@@ -15,7 +15,7 @@ interface CartItem {
 }
 
 export default function CartPage() {
-  const [cartItems, setCartItems] = useState<CartItem[]>([
+  const [cartItems] = useState<CartItem[]>([
     {
       id: 1,
       image: '/product-3.svg', 
@@ -64,6 +64,7 @@ export default function CartPage() {
                     alt={item.name}
                     fill
                     className="object-cover rounded-md"
+                    priority
                   />
                 </div>
                 <div className="flex-1">
